@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <main>
-          <NavBar/>
+          <NavBar />
           <section>
             <img src={fotoPerfil} alt='foto-Jeniffer' className='perfil'/>
             <h1>Jeniffer Nascimento</h1>
