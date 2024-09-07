@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     list-style: none;
-    color: #351456;
+    color: var(--lilas_escuro);
     margin-top: 10%;
 }
 
