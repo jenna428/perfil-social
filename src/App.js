@@ -9,8 +9,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <NavBar/>
         <main>
+          <NavBar/>
           <section>
             <img src={fotoPerfil} alt='foto-Jeniffer' className='perfil'/>
             <h1>Jeniffer Nascimento</h1>
