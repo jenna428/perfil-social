@@ -5,13 +5,18 @@
     width: 100%;
 }
 
-.list{
+.list {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     color: var(--lilas_escuro);
     margin-top: 10%;
+}
+
+.list li a {
+    color: var(--lilas_escuro);
+    text-decoration: none;
 }
 
 .list li{
