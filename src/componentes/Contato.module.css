@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.redes{
+    position: absolute;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #351456;
+    margin-top: 10%;
+}
+
+.list li{
+    margin: 20px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+@media screen and (min-width:992px) {
+    .list li{
+        margin: 50px;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    
+    .list{
+        margin-top: 0;
+    }
+}

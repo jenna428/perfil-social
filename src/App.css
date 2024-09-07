@@ -6,6 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Kode+Mono:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Passion+One&family=Roboto&family=Sriracha&display=swap');
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 
 :root{
   --lilas_claro: #9177AC;
