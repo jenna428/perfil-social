@@ -19,6 +19,10 @@
     text-decoration: none;
 }
 
+.list li a:hover {
+    color: var(--lilas_claro);
+}
+
 .list li{
     margin: 20px;
     font-size: 2em;
