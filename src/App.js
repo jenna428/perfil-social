@@ -15,7 +15,7 @@ function App() {
             <img src={fotoPerfil} alt='foto-Jeniffer' className='perfil'/>
             <h1>Jeniffer Nascimento</h1>
             <Routes>
-              <Route path="/" element={<Home/>}/>
+              <Route path="" element={<Home/>}/>
               <Route path="/contato" element={<Contato/>}/>
             </Routes>
           </section>
