@@ -15,8 +15,8 @@ function App() {
             <img src={fotoPerfil} alt='foto-Jeniffer' className='perfil'/>
             <h1>Jeniffer Nascimento</h1>
             <Routes>
-              <Route exact path= "/" element={<Home/>}/>
-              <Route exact path= "/contato" element={<Contato/>}/>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/contato" element={<Contato/>}/>
             </Routes>
           </section>
         </main>
