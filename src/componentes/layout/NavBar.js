@@ -5,8 +5,8 @@ function NavBar(){
     return(
         <nav>
             <ul>
-                <li><Link to="/" className={styles.item}>Home</Link></li>|
-                <li><Link to="/contato" className={styles.item}>Contato</Link></li>
+                <li><Link to="" className={styles.item}>Home</Link></li>|
+                <li><Link to="perfil-social/contato" className={styles.item}>Contato</Link></li>
             </ul>
         </nav>
     )
