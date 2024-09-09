@@ -56,4 +56,9 @@ h1{
     .perfil{
       width: 200px;
     }
+
+    section{
+      height: 500px;
+      transform: translate(-50%, -75%);
+    }
 }
