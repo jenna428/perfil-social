@@ -24,19 +24,23 @@
 }
 
 .list li{
-    margin: 2px;/*celular*/
+    margin: 2px;
     font-size: 2em;
     cursor: pointer;
 }
 
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+    .list li{
+        margin: 5px;
+    }
+}
+/*
 @media screen and (min-width:992px) {
     .list li{
         margin: 50px;
-        font-size: 2em;
-        cursor: pointer;
     }
     
     .list{
         margin-top: 0;
     }
-}
+}*/

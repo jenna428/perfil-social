@@ -26,7 +26,7 @@
 .perfil{
   border-radius: 50%;
   margin: 10px;
-  width: 150px;/*celular*/
+  width: 150px;
 }
 
 main{
@@ -52,3 +52,8 @@ h1{
   color: var(--lilas_escuro);
 }
 
+@media screen and (min-width: 375px) and (max-width: 1024px){
+    .perfil{
+      width: 200px;
+    }
+}
