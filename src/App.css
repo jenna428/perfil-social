@@ -25,7 +25,8 @@
 
 .perfil{
   border-radius: 50%;
-  margin: 20px;
+  margin: 10px;
+  width: 150px;/*celular*/
 }
 
 main{
@@ -37,12 +38,12 @@ main{
 
 section{
   background-color: white;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  height: 500px;
-  width: 60vw;
+  transform: translate(-50%, -60%);
+  height: 450px;
+  width: 85vw;
   border-radius: 30px;
 }
 
@@ -50,3 +51,4 @@ h1{
   font-family: var(--fonte_titulo);
   color: var(--lilas_escuro);
 }
+

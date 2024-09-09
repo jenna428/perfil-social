@@ -24,7 +24,7 @@
 }
 
 .list li{
-    margin: 20px;
+    margin: 2px;/*celular*/
     font-size: 2em;
     cursor: pointer;
 }
